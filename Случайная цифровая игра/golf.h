@@ -14,7 +14,7 @@ public:
 		player_name2 = "";
 	}
 	void GmA();
-	Game(const std::string& name, const std::string name1);
+	Game(const std::string& name, const std::string &name1);
 	void show()const;
 	void GivePoint(int wallet_t,int purse_t);
 };
