@@ -13,7 +13,6 @@ int main(void)
 	cout << "\n'B') Found record about student ";
 	cout << "\n'G') Save info about student ";
 	cout << "\n'V') Show up record about student ";
-	cout << "\n'P')Checking for equality of strings";
 	cout << "\n\tChoice : ";
 
 	InfoStudent a;
@@ -53,9 +52,6 @@ int main(void)
 		case 'V':
 			app.ShowInfoAboutStudent(app);
 			std::cout << app;
-			break;
-
-		case 'P':
 			break;
 
 		default:
