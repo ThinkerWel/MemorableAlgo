@@ -37,18 +37,14 @@ int main(void)
 			cout << "Enter : ";
 			cin >> a;
 			std::cout << a;
-
 			break;
 
 		case 'B':
 			app=InfoStudent("Ruslan", "Geografy", 5);
-
 			clt = clt + apl;
 			cout << "Clt = " << clt;
 			cout << app;
-			
 			break;
-
 
 		case 'G':
 			app.SaveInfoInFile(app);
