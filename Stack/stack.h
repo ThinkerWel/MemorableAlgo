@@ -3,7 +3,7 @@
 #include <iostream>
 
 typedef unsigned long Item;
-//1 /3 / 4 Yes
+
 
 class Stack {
     enum{MAX=10};
