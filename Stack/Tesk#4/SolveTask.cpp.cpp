@@ -18,7 +18,7 @@ int main()
 		cin >> ch;
 		while (strchr("ertlq", ch) == NULL)
 		{
-			cout << "You need repear your choice: ";
+			cout << "You need repeat your choice: ";
 			cin >> ch;
 		}
 		cin.get();
