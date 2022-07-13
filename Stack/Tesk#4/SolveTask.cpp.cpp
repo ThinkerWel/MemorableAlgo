@@ -31,7 +31,7 @@ int main()
 			break;
 		case'r':s[i] = new Gunlinger;
 			break;
-		case't':PokerPlayer;
+		case't':s[i]=new PokerPlayer;
 			break;
 		case 'l':s[i] = new BadDude;
 			break;
