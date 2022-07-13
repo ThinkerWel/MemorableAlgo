@@ -11,7 +11,7 @@ private:
 	std::string fname;
 	std::string lname;
 public:
-	Person() :fname("Ruslan"), lname("Aslanov") {}
+	Person() :fname("fname"), lname("name") {}
 	Person(const std::string& fn, const std::string& ln) :fname(fn), lname(ln) {}
 	virtual void Show()const {
 		std::cout << "Fname: "<< fname <<" "<< "Lname: " << lname << std::endl;
