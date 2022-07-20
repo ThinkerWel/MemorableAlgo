@@ -35,8 +35,8 @@ int main(void)
 			try {
 				RAM s;
 				s.Show();
-				//rtFunction(s);
-			//	s.Show();
+				rtFunction(s);
+				s.Show();
 			}
 			catch (RAM& st)
 			{
@@ -64,10 +64,10 @@ int main(void)
 
 		add[i]->Set();
 	}
-	//std::cout << std::endl;
+	std::cout << std::endl;
 
 	for (int k = 0; k < i; k++) {
-	//	std::cout << std::endl;
+		std::cout << std::endl;
 		add[k]->Show();
 	}
 
